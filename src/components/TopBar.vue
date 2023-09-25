@@ -22,4 +22,10 @@ const emit = defineEmits<{
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+@supports (-webkit-touch-callout: none) {
+  .h-screen {
+    height: -webkit-fill-available;
+  }
+}
+</style>

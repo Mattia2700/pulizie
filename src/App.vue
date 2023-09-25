@@ -23,7 +23,7 @@ const weekNumber = ref(Math.ceil(days / 7));
   </div>
 </template>
 
-<style>
+<style scoped>
 @supports (-webkit-touch-callout: none) {
   .h-screen {
     height: -webkit-fill-available;
