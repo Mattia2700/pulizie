@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import HelloWorld from "./components/TopBar.vue";
 import Shifts from "./components/Shifts.vue";
 import TopBar from "./components/TopBar.vue";
 import { ref } from "vue";

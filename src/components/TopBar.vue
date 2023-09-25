@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { IconChevronsLeft, IconChevronsRight } from "@tabler/icons-vue";
-import { onMounted, onUpdated } from "vue";
 
 const props = defineProps({
   week: Number,
@@ -17,7 +16,7 @@ const emit = defineEmits<{
     <h1 class="text-white pt-4 text-4xl font-bold">Turni pulizie</h1>
     <span class="flex items-center">
       <IconChevronsLeft class="text-white mr-3" @click="emit('prevWeek')" />
-      <h2 class="text-white py-4 text-2xl">Settimana {{ week }}</h2>
+      <h2 class="text-white py-4 text-2xl">Settimana {{ props.week }}</h2>
       <IconChevronsRight class="text-white ml-3" @click="emit('nextWeek')" />
     </span>
   </div>
