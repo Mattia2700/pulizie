@@ -42,7 +42,7 @@ function nextPerson(current: string) {
 </script>
 
 <template>
-  <div class="flex flex-col h-screen justify-between">
+  <div class="flex flex-col h-[100svh] md:h-screen justify-between">
     <div
       v-for="(p, i) in places"
       class="flex-1 flex"
@@ -67,10 +67,4 @@ function nextPerson(current: string) {
   </div>
 </template>
 
-<style scoped>
-@supports (-webkit-touch-callout: none) {
-  .h-screen {
-    height: -webkit-fill-available;
-  }
-}
-</style>
+<style scoped></style>

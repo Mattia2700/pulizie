@@ -13,7 +13,7 @@ const weekNumber = ref(Math.ceil(days / 7));
 </script>
 
 <template>
-  <div class="flex flex-col h-screen">
+  <div class="flex flex-col h-[100svh]">
     <TopBar
       :week="weekNumber"
       @prev-week="weekNumber--"
@@ -23,10 +23,4 @@ const weekNumber = ref(Math.ceil(days / 7));
   </div>
 </template>
 
-<style scoped>
-@supports (-webkit-touch-callout: none) {
-  .h-screen {
-    height: -webkit-fill-available;
-  }
-}
-</style>
+<style scoped></style>
