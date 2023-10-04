@@ -6,7 +6,7 @@ const places = ["Bagno", "Cucina", "Pavimenti"];
 const colors = ["bg-[#F25F5C]", "bg-[#FFE066]", "bg-[#247BA0]"];
 const text_colors = ["text-white", "text-black", "text-white"];
 
-const people = ["Mattia", "Fafa", "Arbjo", "Beppe", "Gabri"];
+const people = ["Mattia", "Fafa", "Arbjo", "Peppe", "Gabri"];
 const indeces = [0, 0, 1];
 
 const new_order = ref([...people]);
